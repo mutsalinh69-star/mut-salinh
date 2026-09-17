@@ -22,8 +22,8 @@
     <header>
         <div class="container">
             <nav class="navbar">
-                <a href="{{ url('/') }}" class="logo">
-                    <img src="{{ asset('img/logo.png.png') }}" alt="LOGO" style="width:15%;">
+                <a href="{{ url('/') }}" class="logo" style="display: flex; align-items: center;">
+                    <img src="{{ asset('img/Logo.png') }}" alt="UNLIMITED MEDIA SALINH" style="height: 48px; width: auto; object-fit: contain;">
                 </a>
                 
                 <div class="nav-links">
