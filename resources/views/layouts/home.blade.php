@@ -3,6 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Open Graph / Facebook Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mut-salinh.onrender.com/">
+    <meta property="og:title" content="UNLIMITED-MEDIA-SALINH | Creative Digital Media & Web Design">
+    <meta property="og:description" content="We specialize in Graphic Design, Video Editing, 2D Animation, and Modern Web Development to deliver impactful digital experiences.">
+    <meta property="og:image" content="{{ asset('img/Logo.png') }}">
+
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <link rel="stylesheet" href="{{ asset('css/costom.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
